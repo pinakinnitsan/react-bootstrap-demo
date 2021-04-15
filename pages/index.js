@@ -4,19 +4,19 @@ import CustomCarousel from '../components/CustomCarousel';
 const slides = [
   {
     id: 1,
-    imageUrl: 'http://placehold.it/1900x1080',
+    imageUrl: '/1900x1080.png',
     title: 'First Slide',
     description: 'This is a description for the first slide.'
   },
   {
     id: 2,
-    imageUrl: 'http://placehold.it/1900x1080',
+    imageUrl: '/1900x1080.png',
     title: 'Second Slide',
     description: 'This is a description for the second slide.'
   },
   {
     id: 3,
-    imageUrl: 'http://placehold.it/1900x1080',
+    imageUrl: '/1900x1080.png',
     title: 'Third Slide',
     description: 'This is a description for the third slide.'
   },
