@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "set NODE_ENV=production&&node server.js",
+    "export": "next build && next export",
+    "heroku-postbuild": "yarn run build:prod"
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
